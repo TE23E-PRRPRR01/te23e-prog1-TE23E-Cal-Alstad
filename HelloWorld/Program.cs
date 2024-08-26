@@ -11,7 +11,7 @@ Console.Write("Vad gillar du att göra på fritiden? ");
 string intresse = Console.ReadLine();
 Console.WriteLine("Jag gillar också " + intresse);
 
-Console.BackgroundColor = ConsoleColor.Magenta;
-Console.ForegroundColor = ConsoleColor.Cyan;
+Console.BackgroundColor = ConsoleColor.Black;
+Console.ForegroundColor = ConsoleColor.White;
 Console.WriteLine("Vad tyckte du om OS i sommar? ");
 Console.WriteLine("Vilken sport tyckte du var bästa? ");
