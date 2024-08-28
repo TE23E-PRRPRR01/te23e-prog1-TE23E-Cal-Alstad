@@ -19,5 +19,5 @@ if (förnamn == "Cal")
 //Är det alstad som loggar in?
 if (efternamn == "Alstad")
 {
-    Console.WriteLine("Jag har saknat dig!");
+Console.WriteLine("Jag har saknat dig!");
 }
