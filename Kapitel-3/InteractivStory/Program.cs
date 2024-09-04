@@ -1,12 +1,12 @@
 ﻿// Interactiv Story
 using System.Xml.Serialization;
 
+Console.Clear();
 Console.WriteLine ("Hej och Välkommen till ditt egna äventyr!");
 
 Console.WriteLine("Du vaknar upp i en mörk kall skog, det är mitt i vintern, du kollar dig omkrig och ser att du är i en korsning");
-Console.WriteLine("Vilken väg tar du? Väg A ät vänster, Väg B åt höger eller Väg C bakom dig? (A/B)");
-
-string answer = Console.ReadLine();
+Console.WriteLine("Vilken väg tar du? Väg A leder mot ett vagt ljus åt vänster, Väg B leder åt höger mot tysta röster i horrizonten (A/B)");
+string answer = Console.ReadLine().ToUpper();
 
 if (answer == "A")
 {
